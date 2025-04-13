@@ -11,7 +11,7 @@ export default function SideBySideLayout() {
   return (
     <main className="flex min-h-screen p-4 bg-[#F7F6F9]">
       <div className="w-1/4 p-4 bg-white shadow-md rounded-lg">
-        {/* <SearchBar/> */}
+        <SearchBar/>
         <WeatherIcon/>
         <WeatherFigure/>
         <WeatherDateAndTime/>
